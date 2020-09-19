@@ -1,0 +1,157 @@
+/* Caitlin Singe 2019© */
+button {
+	background-color: #008CBA;
+	border: none;
+	color: white;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.dropbtn {
+	background-color: white;
+	color: black;
+	padding: 10px 24px;
+	font-size: 12px;
+	border: none;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.homebutton {
+	background-color: #FF0000;
+	
+}
+
+.homebutton:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.mathdropdown {
+	background-color: #FF8C00;
+}
+
+.mathdropdown:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.englishdropdown {
+	background-color: #FFcf00;
+	
+}
+
+.englishdropdown:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.sciencedropdown {
+	background-color: #32CD32;
+}
+
+.sciencedropdown:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.historydropdown {
+	background-color: #00BFFF;
+}
+
+.historydropdown:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.geographydropdown {
+	background-color: #0000FF;
+}
+
+.geographydropdown:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.musicdropdown {
+	background-color: #9400D3;
+}
+
+.musicdropdown:hover {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: black;
+	font-size: 150%
+}
+
+h3 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: black;
+}
+
+p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+}
+
+li {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+}
